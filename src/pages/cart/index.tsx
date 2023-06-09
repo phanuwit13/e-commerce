@@ -117,7 +117,7 @@ const CartPage = (props: Props) => {
                 return (
                   <div className='border-b' key={`cart-${index}`}>
                     <div className='flex w-full gap-[16px]'>
-                      <div className='w-[90%]'>
+                      <div className='w-[90%] md:w-[45%]'>
                         <div className='flex gap-[30px] py-[25px] pr-[10px] max-w-[500px]'>
                           <Image
                             src={item.thumbnail}
