@@ -1,6 +1,4 @@
 import useInitializeStore from '@/store/auth'
-import { withoutAuth } from '@/utils/withoutAuth'
-import { GetServerSideProps } from 'next'
 import { useRouter } from 'next/router'
 
 type Props = {}
@@ -67,6 +65,6 @@ const LoginPage = (props: Props) => {
   )
 }
 
-export const getServerSideProps: GetServerSideProps = withoutAuth()
+// export const getServerSideProps: GetServerSideProps = withoutAuth()
 
 export default LoginPage

@@ -17,7 +17,7 @@ export const withoutAuth =
       return {
         redirect: {
           permanent: false,
-          destination: props?.redirect || '/store'
+          destination: props?.redirect || '/'
         }
       }
     }
